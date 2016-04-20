@@ -44,31 +44,36 @@ public class Main {
 	    return ret;
 	}
 
-	public static void setWinners(int nPlayers, boolean[][] wins,
+	public static void setWinners(int nPlayers, int[] wins,
 			DPRow oldRow1, DPRow oldRow2,
 			DPRow newRow) {
-		// loop through all the potential winners of the first subtournament
-		for (int i1 = 0, w1 = 1; i1 < nPlayers; i1++, w1 = w1 << 1) {
-			if ((oldRow1.winnerBits & w1) == 0)
-				continue;
+		// loop through all the players
+		for (int i = 0, w = 1; i < nPlayers; i++, w = w << 1) {
+			loopCount++;
 			
-			// and all potential winners of the second subtournament
-			for (int i2 = 0, w2 = 1; i2 < nPlayers; i2++, w2 = w2 << 1) {
-				loopCount++;		// count the innermost loop
-				if ((oldRow2.winnerBits & w2) == 0)
-					continue;
-				
-				// if player i1 beats player i2, then he/she is a potential
-				// winner of the combined subtournament
-				if (wins[i1][i2])
-					newRow.winnerBits |= w1;
-				else
-					// otherwise, player i2 is a potential winner
-					newRow.winnerBits |= w2;
+			// check if this player could win the first subtournament
+			if ((oldRow1.winnerBits & w) != 0) {
+				// yep, so see if player i wins against any of the potential
+				// winners of the second subtournament 
+				if ((oldRow2.winnerBits & wins[i]) != 0) {
+					// yes, so player i could win this subtournament
+					newRow.winnerBits |= w;
+				}
+			}
+			
+			// otherwise, check if this player could win the second subtournament
+			// (no player can be in both subtournaments)
+			else if ((oldRow2.winnerBits & w) != 0) {
+				// yep, so see if player i wins against any of the potential
+				// winners of the first subtournament 
+				if ((oldRow1.winnerBits & wins[i]) != 0) {
+					// yes, so player i could win this subtournament
+					newRow.winnerBits |= w;
+				}
 			}
 		}
-		
 	}
+
 	// Given the potential winners from the previous round, in oldRows,
 	// calculate and return a new map of rows containing the potential
 	// winners after the next round of the tournament.
@@ -76,7 +81,7 @@ public class Main {
 	public static Map<Integer, DPRow> nextRound(
 			Map<Integer, DPRow> oldRows,
 			int nPlayers,
-			boolean[][] wins,
+			int[] wins,
 			int subTournamentSize) {
 		
 		// create the result map with a decent size, although bucket distribution
@@ -87,9 +92,10 @@ public class Main {
 		DPRow[] oldRowsArray = new DPRow[oldRows.size()];
 		oldRowsArray = oldRows.values().toArray(oldRowsArray);
 		
-		// loop through all pairs of subtournament results from the previous round
+		// loop through all pairs of subtournament results from the
+		// previous round
 		for (int i = 0; i < oldRowsArray.length - 1; i++) {
-			for (int j = i+1; j < oldRowsArray.length; j++) {
+			for (int j = i + 1; j < oldRowsArray.length; j++) {
 				
 				// but throw out results where some player was in both subtournaments
 				if ((oldRowsArray[i].playerBits & oldRowsArray[j].playerBits) != 0)
@@ -126,7 +132,7 @@ public class Main {
 	public static Map<Integer, DPRow> lastRound(
 			Map<Integer, DPRow> oldRows,
 			int nPlayers,
-			boolean[][] wins) {
+			int[] wins) {
 		// create the single output row that will result
 		int bits = (1 << nPlayers) - 1;
 		DPRow newRow = new DPRow(nPlayers, bits);
@@ -157,11 +163,13 @@ public class Main {
 		int nPlayers = Integer.parseInt(reader.readLine());
 		
 		// read the wins matrix
-		boolean[][] wins = new boolean[nPlayers][nPlayers];
+		int[] wins = new int[nPlayers];
 		for (int i = 0; i < nPlayers; i++) {
 			String[] w = reader.readLine().split(" ");
 			for (int j = 0; j < nPlayers; j++) {
-				wins[i][j] = Integer.parseInt(w[j]) != 0;
+				if (Integer.parseInt(w[j]) != 0) {
+					wins[i] |= (1 << j); 
+				}
 			}
 		}
 		
@@ -216,7 +224,7 @@ public class Main {
 		for (int i = 0; i < nPlayers; i++) {
 			minPlacing[i] = 1;
 			for (int j = 0; j < nPlayers; j++) {
-				if (i != j && !wins[i][j]) {
+				if (i != j && ((wins[i] & (1 << j)) == 0)) {
 					minPlacing[i] = (nPlayers / 2) + 1;
 					break;
 				}
@@ -234,7 +242,7 @@ public class Main {
 	}
 
 	public static void main(String[] args) throws IOException {
-//		long now = System.currentTimeMillis();
+		long now = System.currentTimeMillis();
 		
 		// read in the number of cases
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
