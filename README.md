@@ -6,4 +6,4 @@ This is a nice example of the dynamic programming technique. The program runs in
 A couple of outstanding questions I have:
 * is it possible to tweak the approach so as to be able to solve tournaments where the number of players is not a power of 2?
 * can the subproblem solutions be stored in a compact array format rather than a map?
-* is there any optimisation that could make analysing a 32-player torunament feasible?
+* is there any optimisation that could make analysing a 32-player tournament feasible? This would have about 3e15 possible subtournaments.
