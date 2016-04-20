@@ -93,7 +93,7 @@ public class Main {
 				
 				// but throw out results where some player was in both subtournaments
 				if ((oldRowsArray[i].playerBits & oldRowsArray[j].playerBits) != 0)
-					continue;		// only build up rows with bit count power of 2
+					continue;
 				
 				// create the new playerBits mask for this row
 				int newBits = oldRowsArray[i].playerBits | oldRowsArray[j].playerBits;
@@ -131,13 +131,13 @@ public class Main {
 		int bits = (1 << nPlayers) - 1;
 		DPRow newRow = new DPRow(nPlayers, bits);
 		
-		// loop through all possible 'first subtournaments'
+		// loop through all possible 'first subtournament's
 		for (DPRow oldRow1 : oldRows.values()) {
 			// avoid checking each pair twice
 			if ((oldRow1.playerBits & 1) != 0)
 				continue;
 
-			// get the 'second subtournament'that has no players in common
+			// get the 'second subtournament' that has no players in common
 			// with the first one
 			DPRow oldRow2 = oldRows.get(bits ^ oldRow1.playerBits);
 			
@@ -228,13 +228,13 @@ public class Main {
 		for (int i = 0; i < nPlayers; i++)
 			System.out.printf("%d %d\n",  maxPlacingMinus1[i] + 1, minPlacing[i]);
 
-		System.err.printf("Case %d, loop count %d\n", iCase, loopCount);
-		if (loopCount > maxLoopCount)
-			maxLoopCount = loopCount;
+//		System.err.printf("Case %d, loop count %d\n", iCase, loopCount);
+//		if (loopCount > maxLoopCount)
+//			maxLoopCount = loopCount;
 	}
 
 	public static void main(String[] args) throws IOException {
-		long now = System.currentTimeMillis();
+//		long now = System.currentTimeMillis();
 		
 		// read in the number of cases
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -246,7 +246,7 @@ public class Main {
 			processCase(i, reader);
 		}
 		
-		System.err.printf("Total run time %d millis\n",  System.currentTimeMillis() - now);
-		System.err.printf("Max loop count %d\n", maxLoopCount);
+//		System.err.printf("Total run time %d millis\n",  System.currentTimeMillis() - now);
+//		System.err.printf("Max loop count %d\n", maxLoopCount);
 	}
 }

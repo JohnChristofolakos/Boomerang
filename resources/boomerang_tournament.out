@@ -1,7 +1,6 @@
 Case #1:
 2 2
 1 1
-Case 1, loop count 2
 Case #2:
 1 9
 1 9
@@ -19,7 +18,6 @@ Case #2:
 1 9
 1 9
 1 9
-Case 2, loop count 12602944
 Case #3:
 1 5
 2 5
@@ -29,7 +27,6 @@ Case #3:
 2 5
 3 5
 1 5
-Case 3, loop count 2256
 Case #4:
 2 5
 1 5
@@ -39,7 +36,6 @@ Case #4:
 1 5
 1 5
 1 5
-Case 4, loop count 2408
 Case #5:
 1 9
 1 9
@@ -57,17 +53,14 @@ Case #5:
 1 9
 1 9
 1 9
-Case 5, loop count 12155296
 Case #6:
 3 3
 1 1
 2 3
 2 3
-Case 6, loop count 36
 Case #7:
 1 1
 2 2
-Case 7, loop count 2
 Case #8:
 1 9
 1 9
@@ -85,7 +78,6 @@ Case #8:
 1 9
 1 9
 1 9
-Case 8, loop count 12614064
 Case #9:
 1 9
 1 9
@@ -103,13 +95,9 @@ Case #9:
 1 9
 1 9
 1 9
-Case 9, loop count 12222608
 Case #10:
 1 5
 1 5
-Case 10, loop count 2280
-Case 11, loop count 36
-Case 12, loop count 2
 1 5
 1 5
 1 5
@@ -127,7 +115,6 @@ Case #12:
 Case #13:
 2 2
 1 1
-Case 13, loop count 2
 Case #14:
 1 5
 2 5
@@ -137,9 +124,7 @@ Case #14:
 1 5
 2 5
 1 5
-Case 14, loop count 2368
-Case 15, loop count 2376
-Case 16, loop count 36Case #15:
+Case #15:
 1 5
 1 5
 1 5
@@ -153,11 +138,9 @@ Case #16:
 2 3
 2 3
 1 1
-
-Case 17, loop count 2Case #17:
+Case #17:
 1 1
 2 2
-
 Case #18:
 1 5
 1 5
@@ -178,14 +161,11 @@ Case #19:
 1 5
 Case #20:
 2 3
-2Case 18, loop count 2384
-Case 19, loop count 2360
- 3
+2 3
 1 3
 1 3
 Case #21:
 1 5
-Case 20, loop count 36
 2 5
 2 5
 1 5
@@ -193,7 +173,6 @@ Case 20, loop count 36
 2 5
 1 5
 1 5
-Case 21, loop count 2272
 Case #22:
 1 5
 1 5
@@ -203,7 +182,6 @@ Case #22:
 1 5
 1 5
 1 5
-Case 22, loop count 2368
 Case #23:
 1 5
 1 5
@@ -213,7 +191,6 @@ Case #23:
 1 5
 1 5
 1 5
-Case 23, loop count 2400
 Case #24:
 1 9
 1 9
@@ -231,7 +208,6 @@ Case #24:
 1 9
 1 9
 1 9
-Case 24, loop count 11176304
 Case #25:
 1 9
 1 9
@@ -249,7 +225,6 @@ Case #25:
 1 9
 1 9
 1 9
-Case 25, loop count 12373312
 Case #26:
 1 5
 2 5
@@ -259,7 +234,6 @@ Case #26:
 1 5
 5 5
 1 5
-Case 26, loop count 2376
 Case #27:
 1 9
 1 9
@@ -277,7 +251,6 @@ Case #27:
 1 9
 1 9
 1 9
-Case 27, loop count 12160064
 Case #28:
 1 5
 1 5
@@ -287,11 +260,9 @@ Case #28:
 2 5
 3 5
 1 5
-Case 28, loop count 2384
 Case #29:
 1 1
 2 2
-Case 29, loop count 2
 Case #30:
 1 5
 1 5
@@ -300,24 +271,20 @@ Case #30:
 2 5
 1 5
 2 5
-Case 30, loop count 2360
-Case 31, loop count 22 5
+2 5
 Case #31:
 2 2
 1 1
-
 Case #32:
 2 3
 2 3
 2 3
 1 1
-Case 32, loop count 36
 Case #33:
 2 3
 2 3
 1 1
 2 3
-Case 33, loop count 36
 Case #34:
 1 9
 1 9
@@ -335,7 +302,6 @@ Case #34:
 1 9
 2 9
 1 9
-Case 34, loop count 11863968
 Case #35:
 1 9
 1 9
@@ -353,13 +319,11 @@ Case #35:
 1 9
 1 9
 1 9
-Case 35, loop count 12486880
 Case #36:
 1 3
 2 3
 1 3
 2 3
-Case 36, loop count 36
 Case #37:
 2 5
 1 5
@@ -369,7 +333,6 @@ Case #37:
 1 5
 1 5
 1 5
-Case 37, loop count 2416
 Case #38:
 1 5
 1 5
@@ -379,13 +342,11 @@ Case #38:
 1 5
 1 5
 1 5
-Case 38, loop count 2312
 Case #39:
 3 3
 1 3
 1 3
 1 3
-Case 39, loop count 36
 Case #40:
 1 9
 1 9
@@ -403,7 +364,6 @@ Case #40:
 1 9
 1 9
 1 9
-Case 40, loop count 12394208
 Case #41:
 1 9
 1 9
@@ -421,23 +381,19 @@ Case #41:
 1 9
 1 9
 1 9
-Case 41, loop count 12290880
 Case #42:
 1 3
 2 3
 2 3
 1 3
-Case 42, loop count 36
 Case #43:
 1 1
 2 3
 2 3
 3 3
-Case 43, loop count 36
 Case #44:
 1 1
 2 2
-Case 44, loop count 2
 Case #45:
 1 9
 1 9
@@ -455,15 +411,12 @@ Case #45:
 1 9
 1 9
 1 9
-Case 45, loop count 12819008
-Case 46, loop count 2Case #46:
+Case #46:
 2 2
 1 1
-
 Case #47:
 1 1
 2 2
-Case 47, loop count 2
 Case #48:
 1 5
 1 5
@@ -473,20 +426,16 @@ Case #48:
 1 5
 2 5
 2 5
-Case 48, loop count 2368
 Case #49:
 2 3
 2 3
 2 3
 1 1
-Case 49, loop count 36
 Case #50:
 1 1
 2 2
-Case 50, loop count 2
 Case #51:
 1 1
-Case 51, loop count 0
 Case #52:
 1 5
 3 5
@@ -496,7 +445,6 @@ Case #52:
 1 5
 1 5
 1 5
-Case 52, loop count 2336
 Case #53:
 1 9
 1 9
@@ -514,13 +462,11 @@ Case #53:
 1 9
 1 9
 1 9
-Case 53, loop count 12149184
 Case #54:
 1 3
 3 3
 1 3
 1 3
-Case 54, loop count 36
 Case #55:
 1 9
 1 9
@@ -538,8 +484,6 @@ Case #55:
 1 9
 1 9
 1 9
-Case 55, loop count 11702112
-Case 56, loop count 2312
 Case #56:
 1 5
 3 5
@@ -558,7 +502,6 @@ Case #57:
 3 5
 1 5
 1 5
-Case 57, loop count 2296
 Case #58:
 1 9
 1 9
@@ -567,7 +510,6 @@ Case #58:
 1 9
 1 9
 1 9
-Case 58, loop count 12943792
 1 9
 1 9
 1 9
@@ -595,8 +537,6 @@ Case #60:
 2 5
 1 5
 1 5
-Case 59, loop count 2320
-Case 60, loop count 2400
 Case #61:
 1 9
 1 9
@@ -614,7 +554,6 @@ Case #61:
 1 9
 1 9
 1 9
-Case 61, loop count 12858912
 Case #62:
 1 5
 1 5
@@ -624,27 +563,22 @@ Case #62:
 1 5
 3 5
 1 5
-Case 62, loop count 2304
 Case #63:
 1 1
 2 2
-Case 63, loop count 2
 Case #64:
 1 3
 2 3
 2 3
 1 3
-Case 64, loop count 36
 Case #65:
 2 2
 1 1
-Case 65, loop count 2
 Case #66:
 3 3
 2 3
 1 1
 2 3
-Case 66, loop count 36
 Case #67:
 1 9
 1 9
@@ -658,11 +592,10 @@ Case #67:
 1 9
 1 9
 1 9
-Case 3 9
+3 9
 1 9
 1 9
 1 9
-67, loop count 11989808
 Case #68:
 1 9
 1 9
@@ -680,7 +613,6 @@ Case #68:
 1 9
 1 9
 2 9
-Case 68, loop count 12057184
 Case #69:
 1 9
 1 9
@@ -698,13 +630,11 @@ Case #69:
 1 9
 1 9
 1 9
-Case 69, loop count 12571712
 Case #70:
 3 3
 2 3
 1 1
 2 3
-Case 70, loop count 36
 Case #71:
 3 5
 2 5
@@ -714,19 +644,14 @@ Case #71:
 1 5
 1 5
 2 5
-Case 71, loop count 2360
 Case #72:
 1 3
 1 3
 3 3
 1 3
-Case 72, loop count 36
 Case #73:
 2 2
 1 1
-Case 73, loop count 2
-Case 74, loop count 2
-Case 75, loop count 2
 Case #74:
 1 1
 2 2
@@ -742,13 +667,11 @@ Case #76:
 2 5
 1 5
 2 5
-Case 76, loop count 2352
 Case #77:
 2 3
 2 3
 1 3
 1 3
-Case 77, loop count 36
 Case #78:
 1 9
 1 9
@@ -766,7 +689,6 @@ Case #78:
 1 9
 1 9
 1 9
-Case 78, loop count 12594864
 Case #79:
 1 5
 1 5
@@ -776,7 +698,6 @@ Case #79:
 2 5
 1 5
 2 5
-Case 79, loop count 2336
 Case #80:
 1 5
 2 5
@@ -786,7 +707,6 @@ Case #80:
 1 5
 1 5
 2 5
-Case 80, loop count 2368
 Case #81:
 2 5
 1 5
@@ -796,17 +716,14 @@ Case #81:
 1 5
 1 5
 1 5
-Case 81, loop count 2384
 Case #82:
 2 3
 1 1
 2 3
 2 3
-Case 82, loop count 36
 Case #83:
 1 1
 2 2
-Case 83, loop count 2
 Case #84:
 1 5
 2 5
@@ -816,7 +733,6 @@ Case #84:
 1 5
 1 5
 1 5
-Case 84, loop count 2352
 Case #85:
 1 9
 1 9
@@ -834,13 +750,11 @@ Case #85:
 1 9
 1 9
 1 9
-Case 85, loop count 12683424
 Case #86:
 1 3
 1 3
 2 3
 2 3
-Case 86, loop count 36
 Case #87:
 1 5
 1 5
@@ -850,15 +764,12 @@ Case #87:
 5 5
 1 5
 1 5
-Case 87, loop count 2368
 Case #88:
 2 2
 1 1
-Case 88, loop count 2
 Case #89:
 1 1
 2 2
-Case 89, loop count 2
 Case #90:
 1 5
 1 5
@@ -868,17 +779,14 @@ Case #90:
 1 5
 1 5
 1 5
-Case 90, loop count 2360
 Case #91:
 1 1
 2 2
-Case 91, loop count 2
 Case #92:
 2 3
 1 1
 3 3
 2 3
-Case 92, loop count 36
 Case #93:
 2 5
 1 5
@@ -888,9 +796,6 @@ Case #93:
 1 5
 1 5
 1 5
-Case 93, loop count 2384
-Case 94, loop count 2208
-Case 95, loop count 2
 Case #94:
 2 5
 2 5
@@ -912,23 +817,19 @@ Case #96:
 1 5
 2 5
 1 5
-Case 96, loop count 2304
 Case #97:
 1 1
 2 3
 2 3
 2 3
-Case 97, loop count 36
 Case #98:
 2 2
 1 1
-Case 98, loop count 2
 Case #99:
 1 1
 2 3
 3 3
 2 3
-Case 99, loop count 36
 Case #100:
 1 5
 3 5
@@ -938,7 +839,6 @@ Case #100:
 2 5
 1 5
 1 5
-Case 100, loop count 2360
 Case #101:
 1 9
 1 9
@@ -956,31 +856,25 @@ Case #101:
 1 9
 1 9
 1 9
-Case 101, loop count 12761104
 Case #102:
 1 3
 1 3
 2 3
 2 3
-Case 102, loop count 36
 Case #103:
 2 2
 1 1
-Case 103, loop count 2
 Case #104:
 1 1
 2 2
-Case 104, loop count 2
 Case #105:
 2 2
-Case 105, loop count 2
 1 1
 Case #106:
 1 1
 2 3
 3 3
 2 3
-Case 106, loop count 36
 Case #107:
 1 9
 1 9
@@ -998,21 +892,17 @@ Case #107:
 1 9
 1 9
 1 9
-Case 107, loop count 12387744
 Case #108:
 2 3
 2 3
 1 3
 1 3
-Case 108, loop count 36
 Case #109:
 2 2
 1 1
-Case 109, loop count 2
 Case #110:
 2 2
 1 1
-Case 110, loop count 2
 Case #111:
 1 9
 1 9
@@ -1030,13 +920,11 @@ Case #111:
 1 9
 1 9
 1 9
-Case 111, loop count 11938320
 Case #112:
 1 3
 3 3
 1 3
 1 3
-Case 112, loop count 36
 Case #113:
 1 5
 1 5
@@ -1046,7 +934,6 @@ Case #113:
 2 5
 1 5
 1 5
-Case 113, loop count 2408
 Case #114:
 2 5
 3 5
@@ -1056,19 +943,16 @@ Case #114:
 1 5
 1 5
 2 5
-Case 114, loop count 2304
 Case #115:
 2 3
 2 3
 1 3
 1 3
-Case 115, loop count 36
 Case #116:
 3 3
 2 3
 1 1
 2 3
-Case 116, loop count 36
 Case #117:
 1 9
 1 9
@@ -1079,8 +963,7 @@ Case #117:
 1 9
 1 9
 1 9
-1 Case 117, loop count 12962752
-9
+1 9
 1 9
 1 9
 1 9
@@ -1096,7 +979,6 @@ Case #118:
 1 5
 2 5
 1 5
-Case 118, loop count 2352
 Case #119:
 1 5
 1 5
@@ -1106,7 +988,6 @@ Case #119:
 1 5
 1 5
 1 5
-Case 119, loop count 2400
 Case #120:
 1 9
 1 9
@@ -1124,31 +1005,25 @@ Case #120:
 1 9
 1 9
 1 9
-Case 120, loop count 12805392
 Case #121:
 2 2
 1 1
-Case 121, loop count 2
 Case #122:
 2 3
 1 3
 1 3
 2 3
-Case 122, loop count 36
 Case #123:
 1 1
 2 2
-Case 123, loop count 2
 Case #124:
 2 3
 3 3
 1 1
 2 3
-Case 124, loop count 36
 Case #125:
 2 2
 1 1
-Case 125, loop count 2
 Case #126:
 1 9
 1 9
@@ -1166,10 +1041,8 @@ Case #126:
 1 9
 1 9
 2 9
-Case 126, loop count 12074272
 Case #127:
 1 1
-Case 127, loop count 2
 2 2
 Case #128:
 2 5
@@ -1180,10 +1053,8 @@ Case #128:
 1 5
 1 5
 1 5
-Case 128, loop count 2368
 Case #129:
 2 2
-Case 129, loop count 2
 1 1
 Case #130:
 1 9
@@ -1202,13 +1073,11 @@ Case #130:
 1 9
 1 9
 1 9
-Case 130, loop count 12416960
 Case #131:
 1 3
 2 3
 2 3
 1 3
-Case 131, loop count 36
 Case #132:
 1 5
 1 5
@@ -1218,13 +1087,11 @@ Case #132:
 3 5
 2 5
 2 5
-Case 132, loop count 2296
 Case #133:
 3 3
 1 3
 1 3
 1 3
-Case 133, loop count 36
 Case #134:
 1 9
 2 9
@@ -1242,13 +1109,11 @@ Case #134:
 1 9
 1 9
 1 9
-Case 134, loop count 12215472
 Case #135:
 2 3
 1 1
 3 3
 2 3
-Case 135, loop count 36
 Case #136:
 2 5
 1 5
@@ -1258,7 +1123,6 @@ Case #136:
 1 5
 1 5
 2 5
-Case 136, loop count 2344
 Case #137:
 1 9
 1 9
@@ -1276,7 +1140,6 @@ Case #137:
 1 9
 1 9
 1 9
-Case 137, loop count 12377920
 Case #138:
 1 5
 1 5
@@ -1286,23 +1149,19 @@ Case #138:
 1 5
 1 5
 1 5
-Case 138, loop count 2384
 Case #139:
 1 3
 2 3
 1 3
 2 3
-Case 139, loop count 36
 Case #140:
 1 3
 1 3
 2 3
 2 3
-Case 140, loop count 36
 Case #141:
 1 1
 2 2
-Case 141, loop count 2
 Case #142:
 1 5
 1 5
@@ -1312,11 +1171,9 @@ Case #142:
 1 5
 2 5
 1 5
-Case 142, loop count 2368
 Case #143:
 1 1
 2 2
-Case 143, loop count 2
 Case #144:
 2 5
 2 5
@@ -1326,7 +1183,6 @@ Case #144:
 2 5
 2 5
 2 5
-Case 144, loop count 2272
 Case #145:
 1 5
 1 5
@@ -1336,7 +1192,6 @@ Case #145:
 1 5
 1 5
 1 5
-Case 145, loop count 2400
 Case #146:
 1 9
 1 9
@@ -1357,8 +1212,6 @@ Case #146:
 Case #147:
 1 1
 2 2
-Case 146, loop count 12651408
-Case 147, loop count 2
 Case #148:
 1 9
 1 9
@@ -1376,7 +1229,6 @@ Case #148:
 1 9
 1 9
 1 9
-Case 148, loop count 12743168
 Case #149:
 1 1
 2 2
@@ -1435,16 +1287,6 @@ Case #158:
 2 5
 1 5
 1 5
-Case 149, loop count 2
-Case 150, loop count 36
-Case 151, loop count 2360
-Case 152, loop count 36
-Case 153, loop count 2400
-Case 154, loop count 36
-Case 155, loop count 36
-Case 156, loop count 2
-Case 157, loop count 36
-Case 158, loop count 2312
 Case #159:
 1 5
 1 5
@@ -1457,8 +1299,6 @@ Case #159:
 Case #160:
 2 2
 1 1
-Case 159, loop count 2416
-Case 160, loop count 2
 Case #161:
 2 3
 3 3
@@ -1484,18 +1324,10 @@ Case #167:
 2 3
 2 3
 2 3
-Case 161, loop count 36
-Case 162, loop count 2
-Case 163, loop count 2
-Case 164, loop count 2
-Case 165, loop count 2
-Case 166, loop count 2
-Case 167, loop count 36
 Case #168:
 1 9
 1 9
-1Case 168, loop count 12775856
- 9
+1 9
 1 9
 1 9
 1 9
@@ -1556,17 +1388,6 @@ Case #178:
 Case #179:
 1 1
 2 2
-Case 169, loop count 2
-Case 170, loop count 36
-Case 171, loop count 2
-Case 172, loop count 36
-Case 173, loop count 2312
-Case 174, loop count 2
-Case 175, loop count 36
-Case 176, loop count 2
-Case 177, loop count 2
-Case 178, loop count 36
-Case 179, loop count 2
 Case #180:
 1 9
 1 9
@@ -1584,17 +1405,14 @@ Case #180:
 1 9
 2 9
 1 9
-Case 180, loop count 11962864
 Case #181:
 2 2
 1 1
-Case 181, loop count 2
 Case #182:
 2 3
 2 3
 1 1
 3 3
-Case 182, loop count 36
 Case #183:
 1 9
 1 9
@@ -1612,7 +1430,6 @@ Case #183:
 1 9
 1 9
 1 9
-Case 183, loop count 12193296
 Case #184:
 1 9
 1 9
@@ -1630,7 +1447,6 @@ Case #184:
 1 9
 1 9
 1 9
-Case 184, loop count 12650032
 Case #185:
 3 3
 1 3
@@ -1647,10 +1463,6 @@ Case #187:
 Case #188:
 1 1
 2 2
-Case 185, loop count 36
-Case 186, loop count 36
-Case 187, loop count 2
-Case 188, loop count 2
 Case #189:
 2 5
 2 5
@@ -1660,7 +1472,6 @@ Case #189:
 2 5
 2 5
 2 5
-Case 189, loop count 2280
 Case #190:
 1 9
 1 9
@@ -1681,12 +1492,9 @@ Case #190:
 Case #191:
 2 2
 1 1
-Case 190, loop count 12460016
-Case #192Case 191, loop count 2
-:
+Case #192:
 2 2
 1 1
-Case 192, loop count 2
 Case #193:
 1 5
 1 5
@@ -1696,7 +1504,6 @@ Case #193:
 2 5
 1 5
 1 5
-Case 193, loop count 2368
 Case #194:
 1 5
 1 5
@@ -1706,13 +1513,11 @@ Case #194:
 2 5
 1 5
 1 5
-Case 194, loop count 2400
 Case #195:
 1 1
 2 3
 2 3
 2 3
-Case 195, loop count 36
 Case #196:
 2 5
 2 5
@@ -1722,7 +1527,6 @@ Case #196:
 2 5
 2 5
 1 1
-Case 196, loop count 2272
 Case #197:
 1 1
 2 2
@@ -1731,8 +1535,6 @@ Case #198:
 1 3
 2 3
 2 3
-Case 197, loop count 2
-Case 198, loop count 36
 Case #199:
 1 9
 1 9
@@ -1750,11 +1552,9 @@ Case #199:
 1 9
 1 9
 1 9
-Case 199, loop count 12538464
 Case #200:
 2 2
 1 1
-Case 200, loop count 2
 Case #201:
 1 5
 2 5
@@ -1764,11 +1564,9 @@ Case #201:
 1 5
 1 5
 1 5
-Case 201, loop count 2360
 Case #202:
 1 1
 2 2
-Case 202, loop count 2
 Case #203:
 1 5
 1 5
@@ -1778,7 +1576,6 @@ Case #203:
 1 5
 3 5
 2 5
-Case 203, loop count 2400
 Case #204:
 1 9
 1 9
@@ -1796,11 +1593,9 @@ Case #204:
 1 9
 1 9
 1 9
-Case 204, loop count 12219984
 Case #205:
 2 2
 1 1
-Case 205, loop count 2
 Case #206:
 2 5
 1 5
@@ -1810,27 +1605,22 @@ Case #206:
 1 5
 1 5
 1 5
-Case 206, loop count 2408
 Case #207:
 1 1
 2 2
-Case 207, loop count 2
 Case #208:
 2 2
 1 1
-Case 208, loop count 2
 Case #209:
 1 3
 2 3
 1 3
 2 3
-Case 209, loop count 36
 Case #210:
 2 3
 3 3
 1 1
 2 3
-Case 210, loop count 36
 Case #211:
 2 5
 1 5
@@ -1840,7 +1630,6 @@ Case #211:
 1 5
 1 5
 1 5
-Case 211, loop count 2400
 Case #212:
 1 9
 1 9
@@ -1858,7 +1647,6 @@ Case #212:
 1 9
 1 9
 1 9
-Case 212, loop count 12784832
 Case #213:
 1 5
 2 5
@@ -1886,12 +1674,7 @@ Case #216:
 Case #217:
 2 2
 1 1
-Case #Case 213, loop count 2408
-Case 214, loop count 2344
-Case 215, loop count 2
-Case 216, loop count 2
-Case 217, loop count 2
-218:
+Case #218:
 2 5
 1 5
 3 5
@@ -1910,13 +1693,10 @@ Case #220:
 1 5
 1 5
 1 5
-1 Case 218, loop count 2376
-Case 219, loop count 36
-5
 1 5
 1 5
 1 5
-Case 220, loop count 2392
+1 5
 Case #221:
 1 9
 1 9
@@ -1935,7 +1715,6 @@ Case #221:
 1 9
 1 9
 Case #222:
-Case 221, loop count 13219872
 1 3
 1 3
 1 3
@@ -1943,11 +1722,6 @@ Case 221, loop count 13219872
 Case #223:
 2 2
 1 1
-Case 222, loop count 36
-Case 223, loop count 2
-Case 224, loop count 12282528
-Case 225, loop count 2
-Case 226, loop count 2352
 Case #224:
 1 9
 1 9
@@ -1985,8 +1759,7 @@ Case #228:
 2 3
 1 1
 2 3
-Case 227, loop count 2
-Case Case #229:
+Case #229:
 2 5
 1 5
 1 5
@@ -2040,17 +1813,6 @@ Case #236:
 1 3
 2 3
 1 3
-228, loop count 36
-Case 229, loop count 2328
-Case 230, loop count 2320
-Case 231, loop count 2
-Case 232, loop count 36
-Case 233, loop count 2368
-Case 234, loop count 36
-Case 235, loop count 2344
-Case 236, loop count 36
-Case 237, loop count 2
-Case 238, loop count 36
 Case #237:
 1 1
 2 2
@@ -2076,13 +1838,11 @@ Case #239:
 1 9
 1 9
 1 9
-Case 239, loop count 12681504
 Case #240:
 2 3
 1 1
 2 3
 3 3
-Case 240, loop count 36
 Case #241:
 1 9
 1 9
@@ -2100,7 +1860,6 @@ Case #241:
 1 9
 1 9
 1 9
-Case 241, loop count 12441088
 Case #242:
 1 3
 2 3
@@ -2117,10 +1876,6 @@ Case #245:
 1 1
 2 3
 2 3
-Case 242, loop count 36
-Case 243, loop count 2
-Case 244, loop count 2
-Case 245, loop count 36
 Case #246:
 1 9
 1 9
@@ -2138,7 +1893,6 @@ Case #246:
 1 9
 1 9
 1 9
-Case 246, loop count 12343104
 Case #247:
 1 9
 1 9
@@ -2156,7 +1910,6 @@ Case #247:
 1 9
 1 9
 1 9
-Case 247, loop count 12636320
 Case #248:
 1 9
 1 9
@@ -2174,7 +1927,6 @@ Case #248:
 1 9
 1 9
 1 9
-Case 248, loop count 12570128
 Case #249:
 1 9
 1 9
@@ -2192,12 +1944,8 @@ Case #249:
 1 9
 1 9
 1 9
-Case 249, loop count 12755360
 Case #250:
 1 1
 2 3
 3 3
-Case 250, loop count 36
-Total run time 2820 millis
-Max loop count 13219872
 2 3
